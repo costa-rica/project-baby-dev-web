@@ -43,6 +43,14 @@ function Home() {
             </li>
             <li>
               <div className={styles.divInfo}>
+                Backend déployé:{" "}
+                <a href="https://project-baby-backend-02.dashanddata.com/">
+                  https://project-baby-backend-02.dashanddata.com/
+                </a>
+              </div>
+            </li>
+            <li>
+              <div className={styles.divInfo}>
                 Expo go déployé:{" "}
                 <a href="https://expo.dev/preview/update?message=replaced%20app.json%3B%20added%20eas.json%3Badded%20eas%20secret%20for%20api%20url%20with%20an%20extra%20backslash%3B%20removed%20first%20backslash%20after%20each%20proce&updateRuntimeVersion=1.0.0&createdAt=2024-11-20T18%3A34%3A04.146Z&slug=exp&projectId=1944ef92-24d6-4fe6-bb3e-35b3c2f150cd&group=136b32a3-759d-44c9-b033-00600aa69ef9">
                   Expo Go Update
